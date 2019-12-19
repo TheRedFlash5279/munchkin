@@ -39,22 +39,22 @@ c c b f f f f f f f f f f c c c
 `
     //% blockIdentity=images._tile
     export const tile3 = img`
-b b b b b b b f b b f b b b f b 
-b f b b b b b f b b f b f b f b 
-b f b b f b b b b b b b f b b b 
-b b b b f b b f b b b b b b b b 
-b b b b b b b f b f b b b b b f 
-b b f b f b b b b f b b f b b f 
-f b f b f b f b b b b b f b b b 
-f b b b b b f b b b b b b b b b 
-b b f b b b b b f b b f b b f b 
-b b f b b b f b f b b f b b f b 
-b b b b f b f b b b b b b b b b 
-b f b b f b b b b f b f b b b b 
-b f b b b b f b b f b f b b b f 
-b b b f b b f b b b b b b f b f 
-f b b f b b b b f b b f b f b b 
-f b b b b b b b f b b f b b b b 
+f c c b c c c c c c c b c c f f 
+f c c c c c c f b c c c c f f d 
+f f c c c b f f f c c c c f d d 
+d f c c c c f d f c b c f f d d 
+d f f b c f f d f f c f f d d d 
+d d f c c f d d d f f f d d d a 
+a d f f f f d d d f f d d d a a 
+a d d f f d d d a a f d d a a a 
+a a d f f d d d a a f f f a a a 
+a a d f d d d a a a a a f a a a 
+a a f f d d d a a a a c f f a a 
+a f f d d d a a a a a c c f f a 
+a f d d d d a a a a c c c c f a 
+f f d d d a a a a a c c c c f f 
+f d d d a a a a a c c c c c c f 
+f f f f f f f f f f f f f f f f 
 `
 }
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile2, function (sprite, location) {
